@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*body {
+	background-color: #FFA66F;
+}
+*/
 nav {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
@@ -17,7 +21,6 @@ nav {
 ul {
 	list-style-type: none;
 	padding: 0px;
-	background-color: #FFA66F;
 	float: right;
 }
 /* nav bar styling methods from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
@@ -30,7 +33,6 @@ li {
 
 a {
 	text-decoration: none;
-	background-color: #FFA66F;
 	padding: 10px;
 }
 
