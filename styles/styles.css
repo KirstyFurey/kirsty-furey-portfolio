@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+nav {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
 #hpbackground {
 	background-color: #FFA66F;
 }
@@ -8,4 +12,32 @@
 #helloworld {
 	height: 100%;
 	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	background-color: #FFA66F;
+	float: right;
+}
+/* nav bar styling methods from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+li {
+	display: inline;
+	text-decoration: none;
+	color: white;
+	
+}
+
+a {
+	text-decoration: none;
+	background-color: #FFA66F;
+	padding: 10px;
+}
+
+#home, #about {
+	border-right: 2px solid white;
+}
+
+a:visited {
+	color: white;
 }

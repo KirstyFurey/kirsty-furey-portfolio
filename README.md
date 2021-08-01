@@ -17,3 +17,8 @@ https://www.fontspace.com/king-lounpera-font-f50516
 
 ### Programs ###
 Images created using Adobe Photoshop
+</br>
+
+### Syntax help ###
+https://www.w3schools.com/
+</br>
