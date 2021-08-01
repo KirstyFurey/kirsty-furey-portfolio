@@ -1,9 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+#hpbackground {
 	background-color: #FFA66F;
-	color: #fff;
 }
 
 #helloworld {
