@@ -6,5 +6,14 @@ This site is the beginning of my coding journey, and showcases what I have learn
 </br>
 </br>
 ## Attribution ##
+### Frameworks ###
 Bootstrap
+</br>
 
+### Fonts ###
+index.html background image created using:</br>
+https://www.fontspace.com/king-lounpera-font-f50516
+</br>
+
+### Programs ###
+Images created using Adobe Photoshop

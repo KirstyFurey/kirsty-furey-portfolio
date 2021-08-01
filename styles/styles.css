@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFA66F;
+	color: #fff;
+}
+
+#helloworld {
+	height: 100%;
+	width: 100%;
+}
