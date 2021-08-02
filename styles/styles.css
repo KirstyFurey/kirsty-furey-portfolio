@@ -6,10 +6,26 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
+header {
+	height: 60px;
+}
+
 nav {
+	font-size: 10pt;
+	letter-spacing: 2px;
+	font-weight: 300;
 	background-color: #ffa66f;
 	width: 100%;
 	overflow: hidden;
+}
+
+.navlogo {
+	float: left;
+}
+
+#navp {
+	float: left;
+	padding-top: 12px;
 }
 
 #helloworld {
@@ -21,6 +37,13 @@ nav {
 .indexcontain {
     width: 100%;
 	position: relative;
+}
+
+/*Media query syntax: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+@media only screen and (max-width: 600px) {
+	.indexcontain {
+		margin-top: 200px;
+	}
 }
 /* To centre the text over the image: https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
 .textoverlay {
@@ -35,7 +58,7 @@ nav {
 
 ul {
 	list-style-type: none;
-	padding: 0px;
+	padding-top: 12px;
 	float: right;
 }
 /* nav bar styling methods from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
@@ -52,7 +75,7 @@ a {
 }
 
 #home, #about {
-	border-right: 2px solid white;
+	border-right: 0.5px solid white;
 }
 
 a:visited {

@@ -35,3 +35,7 @@ https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-te
 Nav bar styling methods from 
 </br>
 https://www.w3schools.com/css/css_navbar_horizontal.asp
+</br>
+Media query snytax for index page and nav change on mobile:
+</br>
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
