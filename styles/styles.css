@@ -72,9 +72,10 @@ li {
 a {
 	text-decoration: none;
 	padding: 10px;
+	color: white;
 }
 
-#home, #about {
+#home, #portfolio, #about {
 	border-right: 0.5px solid white;
 }
 
