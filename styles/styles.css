@@ -75,3 +75,25 @@ a:visited {
 	margin: 0;
 }
 
+.socials {
+	padding-top: 5px;
+}
+
+.sociallogos {
+	padding: 5px;
+}
+
+#linkedin {
+	width: 10%;
+}
+
+#github {
+	width: 10%;
+}
+#instagram {
+	width: 10%;
+}
+
+#facebook {
+	width: 10%;
+}
