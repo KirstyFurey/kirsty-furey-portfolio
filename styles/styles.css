@@ -1,24 +1,36 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*body {
-	background-color: #FFA66F;
-}
-*/
-nav {
+body {
+	color: white;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+nav {
 	background-color: #ffa66f;
 	width: 100%;
 	overflow: hidden;
 }
 
-#hpbackground {
-	background-color: #FFA66F;
-}
-
 #helloworld {
 	height: 100%;
 	width: 100%;
+}
+
+/* To float text div over image: https://stackoverflow.com/questions/18339549/floating-div-over-an-image*/
+.indexcontain {
+    width: 100%;
+	position: relative;
+}
+/* To centre the text over the image: https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
+.textoverlay {
+	width: 200px;
+    position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1000;
+	text-align: center;
 }
 
 ul {
