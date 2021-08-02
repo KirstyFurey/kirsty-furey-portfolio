@@ -23,10 +23,65 @@ nav {
 	float: left;
 }
 
+.navlogomob {
+	float: left;
+}
+
+.navhover:hover {
+	background-color: #e97730;
+}
+
 #navp {
 	float: left;
 	padding-top: 12px;
 }
+
+#navpmob {
+	float: left;
+	padding-top: 12px;
+}
+
+#mobnav {
+	display: none;
+}
+
+/*mobile nav hamburger code & styling: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci*/
+.hamburger {
+	float: right;
+	padding-top: 12px;
+	padding-right: 5px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #e97730;
+}
+
+.barmid {
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #e97730;
+}
+
+@media only screen and (max-width: 600px) {
+	#mobnav {
+		display: block;
+	}
+	#desknav {
+		display: none;
+	}
+}
+
+
 
 #helloworld {
 	height: 100%;
@@ -42,7 +97,7 @@ nav {
 /*Media query syntax: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 @media only screen and (max-width: 600px) {
 	.indexcontain {
-		margin-top: 200px;
+		margin-top: 100px;
 	}
 }
 /* To centre the text over the image: https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
@@ -60,6 +115,16 @@ ul {
 	list-style-type: none;
 	padding-top: 12px;
 	float: right;
+}
+
+@media only screen and (max-width: 600px) {
+	ul {
+		list-style-type: none;
+		margin-top: 45px;
+		float: right; 
+		text-align: right;
+		
+	}
 }
 /* nav bar styling methods from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
 li {

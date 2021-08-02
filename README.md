@@ -39,3 +39,8 @@ https://www.w3schools.com/css/css_navbar_horizontal.asp
 Media query snytax for index page and nav change on mobile:
 </br>
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+<br>
+Mobile nav hamburger and styling:
+<br>
+https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+<br>
