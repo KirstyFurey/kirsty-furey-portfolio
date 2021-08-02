@@ -7,6 +7,9 @@
 */
 nav {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #ffa66f;
+	width: 100%;
+	overflow: hidden;
 }
 
 #hpbackground {
