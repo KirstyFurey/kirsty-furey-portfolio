@@ -10,6 +10,12 @@ This site is the beginning of my coding journey, and showcases what I have learn
 Bootstrap
 </br>
 
+### Icons ###
+Font Awesome</br>
+https://fontawesome.com/</br>
+Hamburger menu icon:</br>
+https://fontawesome.com/v5.15/icons/bars?style=solid
+
 ### Fonts ###
 index.html background image created using:</br>
 https://www.fontspace.com/king-lounpera-font-f50516
