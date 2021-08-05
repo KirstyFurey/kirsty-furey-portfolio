@@ -44,7 +44,7 @@ nav a {
 	color: white;
 }
 
-a:visited {
+nav a:visited {
 	color: white;
 }
 /*desktop and mobile nav CSS ends*/
@@ -227,6 +227,71 @@ body a {
 
 /*contact CSS ends*/
 
+/*About Me CSS*/
+/*How to align image and text to centre of page and sit next to each other: https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html*/
+.about-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+#kirsty-about {
+	max-width: 100%;
+}
+
+.about-me-info {
+	padding-left: 20px;
+}
+
+.about-container-mobile {
+	display: none;
+}
+
+.about-me-info h4 {
+	font-weight: 100;
+	font-size: 200%;
+	padding-bottom: 5px;
+}
+
+/*About me CSS mobile*/
+@media only screen and (max-width: 600px) {
+	#about-me-container {
+		display: none
+	}
+	
+	.about-container-mobile {
+		display: block;
+		margin: auto;
+		align-text: center;
+		padding: 20px;
+	}
+	
+	#kirsty-about-mobile {
+		width: 40%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.about-me-info-mobile {
+		text-align: center;
+		padding: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 90px;
+	}
+	
+	.about-me-info-mobile h4 {
+		font-weight: 100;
+		font-size: 200%;
+		padding-bottom: 5px;
+	}
+}
+
+/*About Me CSS Ends*/
+
 /*Footer CSS*/
 
 footer {
@@ -249,3 +314,4 @@ footer {
 }
 
 /*Footer CSS ends*/
+

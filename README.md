@@ -42,11 +42,10 @@ Nav bar styling methods from
 </br>
 https://www.w3schools.com/css/css_navbar_horizontal.asp
 </br>
-Media query snytax for index page and nav change on mobile:
-</br>
+Media query snytax
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 <br>
-Mobile nav hamburger and styling:
-<br>
-https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
-<br>
+About page image & text centre and align:
+</br>
+https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
+</br>
