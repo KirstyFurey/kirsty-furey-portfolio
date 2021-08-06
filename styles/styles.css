@@ -10,6 +10,10 @@ body {
 	position: relative;
 }
 
+body a {
+	text-underline-offset: 5px; /*syntax found via an answer on Stack overflow: https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css*/
+}
+
 /*desktop and mobile nav CSS*/
 nav {
 	color: white;
@@ -182,6 +186,284 @@ li {
 }
 /*Index CSS - image, name, socials ends*/
 
+/*Portfolio CSS*/
+
+.portfolio-title p {
+	text-align: center;
+	font-size: 80%;
+	margin-top: 20px;
+}
+
+.portfolio-title span {
+	font-size: 150%;
+	font-weight: 100;
+	text-decoration-thickness: 2%; 
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+	.portfolio-title span {
+		font-size: 100%;
+		font-weight: 600;
+		text-decoration-thickness: 2%; 
+		padding-left: 3px;
+		padding-right: 3px;	
+	}
+	
+	.portfolio-title p {
+		font-size: 70%;
+	}
+}
+
+#portfolio-contact-link {
+	font-size: 250%;
+	font-weight: 100;
+}
+
+/*Black Friday*/
+.black-friday-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	box-shadow: 5px 5px 20px #bcbcbc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#black-friday-work {
+	max-width: 100%;
+}
+
+.black-friday-text {
+	padding-left: 20px;
+}
+
+.black-friday-container-mobile {
+	display: none;
+}
+
+.black-friday-text h4 {
+	font-weight: 100;
+	font-size: 150%;
+	padding-bottom: 5px;
+}
+
+.black-friday-text h6 {
+	font-style: italic;
+	font-weight: 200;
+	padding-bottom: 5px;
+}
+
+/*About me CSS mobile*/
+@media only screen and (max-width: 600px) {
+	#black-friday-wrapper {
+		display: none
+	}
+	
+	.black-friday-container-mobile {
+		display: block;
+		margin: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 50px;
+		align-text: center;
+		box-shadow: 5px 5px 20px #bcbcbc;
+		padding-top: 10px;
+	}
+	
+	#black-friday-work-mobile {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.black-friday-text-mobile {
+		text-align: center;
+		padding: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.black-friday-text-mobile h4 {
+		font-weight: 100;
+		font-size: 150%;
+		padding-bottom: 5px;
+	}
+	
+	.black-friday-text-mobile h6 {
+		font-style: italic;
+		font-weight: 200;
+		padding-bottom: 5px;
+}
+}
+
+/*Homepage*/
+.homepage-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	box-shadow: 5px 5px 20px #bcbcbc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#homepage-mockup {
+	max-width: 100%;
+}
+
+.homepage-text {
+	padding-left: 20px;
+}
+
+.homepage-container-mobile {
+	display: none;
+}
+
+.homepage-text h4 {
+	font-weight: 100;
+	font-size: 150%;
+	padding-bottom: 5px;
+}
+
+.homepage-text h6 {
+	font-style: italic;
+	font-weight: 200;
+	padding-bottom: 5px;
+}
+
+/*About me CSS mobile*/
+@media only screen and (max-width: 600px) {
+	#homepage-wrapper {
+		display: none
+	}
+	
+	.homepage-container-mobile {
+		display: block;
+		margin: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 50px;
+		align-text: center;
+		box-shadow: 5px 5px 20px #bcbcbc;
+		padding-top: 10px;
+	}
+	
+	#homepage-mobile {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.homepage-text-mobile {
+		text-align: center;
+		padding: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.homepage-text-mobile h4 {
+		font-weight: 100;
+		font-size: 150%;
+		padding-bottom: 5px;
+	}
+	
+	.homepage-text-mobile h6 {
+		font-style: italic;
+		font-weight: 200;
+		padding-bottom: 5px;
+}
+}
+
+
+/*Look Book*/
+.lookbook-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	box-shadow: 5px 5px 20px #bcbcbc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#lookbook-video {
+	max-width: 85%;
+}
+
+.lookbook-text {
+	padding-left: 20px;
+}
+
+.lookbook-container-mobile {
+	display: none;
+}
+
+.lookbook-text h4 {
+	font-weight: 100;
+	font-size: 150%;
+	padding-bottom: 5px;
+}
+
+.lookbook-text h6 {
+	font-style: italic;
+	font-weight: 200;
+	padding-bottom: 5px;
+}
+
+/*About me CSS mobile*/
+@media only screen and (max-width: 600px) {
+	#lookbook-wrapper {
+		display: none
+	}
+	
+	.lookbook-container-mobile {
+		display: block;
+		margin: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 50px;
+		align-text: center;
+		box-shadow: 5px 5px 20px #bcbcbc;
+		padding-top: 10px;
+	}
+	
+	#lookbook-mobile-video {
+		max-width: 85%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.lookbook-text-mobile {
+		text-align: center;
+		padding: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.lookbook-text-mobile h4 {
+		font-weight: 100;
+		font-size: 150%;
+		padding-bottom: 5px;
+	}
+	
+	.lookbook-text-mobile h6 {
+		font-style: italic;
+		font-weight: 200;
+		padding-bottom: 5px;
+	}
+}
+
+/*Portfolio CSS ends*/
+
 /*About Me CSS*/
 /*How to align image and text to centre of page and sit next to each other: https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html*/
 .about-container {
@@ -189,7 +471,7 @@ li {
 	align-items: center;
 	justify-content: center;
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 #kirsty-about {
@@ -288,7 +570,7 @@ body a {
 	padding: 20px 40px 20px 40px;
 	border-radius: 5px;
 	box-shadow: 5px 5px 20px #bcbcbc;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 /*contact CSS ends*/
@@ -297,7 +579,7 @@ body a {
 
 footer {
 	background-color: #ffa66f;
-	position: fixed;
+	position: static;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -320,6 +602,8 @@ footer {
 	font-size: 50%;
 	padding-bottom: 5px;
 	padding-right: 5px;
+	margin-bottom: 0px;
+	margin-right: 0px;
 }
 
 /*Footer CSS ends*/

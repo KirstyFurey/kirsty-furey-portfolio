@@ -49,3 +49,7 @@ About page image & text centre and align:
 </br>
 https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
 </br>
+Change spacing between text and text underline:
+</br>
+https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css
+</br>
