@@ -182,51 +182,6 @@ li {
 }
 /*Index CSS - image, name, socials ends*/
 
-/*contact CSS*/
-
-#lets-talk {
-	text-align: center;
-	margin-top: 20px;
-	font-weight: 300;
-	margin-bottom: 30px;
-}
-
-#contact-intro {
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 80%;
-}
-
-.contact-type {
-	padding: 0px;
-	margin: 0px;
-	font-weight: 600;
-}
-
-.contact-item {
-	padding: 0px;
-	margin: 0px;
-	font-weight: 300;
-}
-
-.contact-type, .contact-item {
-	text-align: center;
-}
-
-body a {
-	color: black;
-}
-
-#contact-info-container {
-	padding: 20px 40px 20px 40px;
-	border-radius: 5px;
-	box-shadow: 5px 5px 20px #bcbcbc;
-	margin-bottom: 150px;
-}
-
-/*contact CSS ends*/
-
 /*About Me CSS*/
 /*How to align image and text to centre of page and sit next to each other: https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html*/
 .about-container {
@@ -239,6 +194,7 @@ body a {
 
 #kirsty-about {
 	max-width: 100%;
+	box-shadow: 5px 5px 20px #bcbcbc;
 }
 
 .about-me-info {
@@ -292,6 +248,51 @@ body a {
 
 /*About Me CSS Ends*/
 
+/*contact CSS*/
+
+#lets-talk {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+#contact-intro {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 80%;
+}
+
+.contact-type {
+	padding: 0px;
+	margin: 0px;
+	font-weight: 600;
+}
+
+.contact-item {
+	padding: 0px;
+	margin: 0px;
+	font-weight: 300;
+}
+
+.contact-type, .contact-item {
+	text-align: center;
+}
+
+body a {
+	color: black;
+}
+
+#contact-info-container {
+	padding: 20px 40px 20px 40px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px #bcbcbc;
+	margin-bottom: 150px;
+}
+
+/*contact CSS ends*/
+
 /*Footer CSS*/
 
 footer {
@@ -301,6 +302,7 @@ footer {
 	left: 0;
 	width: 100%;
 	height: auto;
+	color: white;
 }
 
 #footer-socials {
@@ -310,7 +312,14 @@ footer {
 	font-size: 40%;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	text-align: right;
+	font-size: 50%;
+	padding-bottom: 5px;
+	padding-right: 5px;
 }
 
 /*Footer CSS ends*/
