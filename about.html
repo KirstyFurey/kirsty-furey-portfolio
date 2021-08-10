@@ -11,17 +11,24 @@
 </head>
 
 <body>
-	<nav>
-		<a href="index.html" class="navlogo">
-		<img src="images/kf-hw-nav-logo-solid.png" alt="navlogo" style="width: 40px; padding: 2px"></a>
-		<p id="navp">Kirsty Furey - Portfolio &amp; CV</p>
-		<ul class="navitems">
-			<i class="fas fa-bars fa-2x" id="mob-nav-menu" role="button"></i>
-			<li id="home"><a href="index.html">HOME</a></li>
-			<li id="portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
-			<li id="about"><a href="about.html">ABOUT ME</a></li>
-			<li id="contact"><a href="contact.html">CONTACT</a></li>
-		</ul>	
+	<!--Navbar code amended from Bootstrap example at: https://getbootstrap.com/docs/5.0/components/navbar/-->
+	<nav class="navbar navbar-expand-lg navbar-light">
+  		<div class="container-fluid text-left">
+    		<a class="navbar-brand" href="index.html"><img src="images/kf-hw-nav-logo-solid.png" alt="navlogo" style="width: 40px; padding: 2px"><span class="nav-span">Kirsty Furey - Portfolio</span></a>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      			<span>
+					<i class="fas fa-bars fa-2x" id="mob-nav-menu" role="button" style="color:#e97730"></i>
+	  			</span>
+    		</button>
+    		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+     			<ul class="navitems">
+					<li id="home"><a href="index.html">HOME</a></li>
+					<li id="portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
+					<li id="about"><a href="about.html">ABOUT ME</a></li>
+					<li id="contact"><a href="contact.html">CONTACT</a></li>
+				</ul>
+    		</div>
+ 	 	</div>
 	</nav>
 	<!--About page for Desktop-->
 	<div class="row justify-content-center" id="about-me-container">
