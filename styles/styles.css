@@ -11,6 +11,7 @@ body {
 }
 
 body a {
+	color: black;
 	text-underline-offset: 5px; /*syntax found via an answer on Stack overflow: https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css*/
 }
 
