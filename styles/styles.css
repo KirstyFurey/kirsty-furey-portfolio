@@ -67,6 +67,13 @@ nav a {
 	color: white;
 }
 
+nav a:hover {
+	color: #e97730;
+}
+
+.active {
+	color: #e97730;
+}
 
 /*desktop and mobile nav CSS ends*/
 
