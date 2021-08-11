@@ -198,23 +198,30 @@ li {
 	padding-right: 3px;
 }
 
-@media only screen and (max-width: 600px) {
-	.portfolio-title span {
+#portfolio-like-h4 {
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 200;
+}
+
+.portfolio-title span {
 		font-size: 100%;
 		font-weight: 600;
 		text-decoration-thickness: 2%; 
 		padding-left: 3px;
 		padding-right: 3px;	
 	}
+
+.portfolio-title p {
+	margin-top: -5px;
+}
+
+@media only screen and (max-width: 600px) {
+	
 	
 	.portfolio-title p {
 		font-size: 70%;
 	}
-}
-
-#portfolio-contact-link {
-	font-size: 250%;
-	font-weight: 100;
 }
 
 /*portfolio items css*/
