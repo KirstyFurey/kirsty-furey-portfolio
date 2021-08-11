@@ -67,9 +67,7 @@ nav a {
 	color: white;
 }
 
-nav a:visited {
-	color: white;
-}
+
 /*desktop and mobile nav CSS ends*/
 
 /*Desktop nav CSS*/
@@ -356,7 +354,7 @@ li {
 	text-align: center;
 }
 
-body a {
+.contact-item a {
 	color: black;
 }
 
