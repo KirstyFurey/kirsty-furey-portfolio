@@ -55,7 +55,6 @@ li {
 	display: inline;
 	text-decoration: none;
 	color: white;
-	
 }
 
 nav ul, nav p {
@@ -81,12 +80,9 @@ nav a:visited {
 #home, #portfolio, #about {
 	border-right: 0.5px solid white;
 }
-
-
 /*Desktop nav CSS ends*/
 
 /*Mobile nav CSS*/
-
 @media only screen and (max-width: 991px) {
 	
 ul {
@@ -108,7 +104,9 @@ li {
 	}		
 }
 /*Mobile nav CSS end*/
+/*Nav CSS ends*/
 
+/*index css*/
 /*Index CSS - image, name, socials*/
 #helloworld {
 	height: 100%;
@@ -180,7 +178,6 @@ li {
 /*Index CSS - image, name, socials ends*/
 
 /*Portfolio CSS*/
-
 .portfolio-title p {
 	text-align: center;
 	font-size: 80%;
@@ -214,411 +211,53 @@ li {
 	font-weight: 100;
 }
 
-/*Black Friday css*/
-.black-friday-container {
+/*portfolio items css*/
+.col-sm-11 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	box-shadow: 5px 5px 20px #bcbcbc;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-#black-friday-work {
-	max-width: 100%;
-}
-
-.black-friday-text {
+.col-sm-4 {
 	padding-left: 20px;
 }
 
-.black-friday-container-mobile {
-	display: none;
-}
-
-.black-friday-text h4 {
+.col-sm-4 h4 {
 	font-weight: 100;
 	font-size: 150%;
 	padding-bottom: 5px;
 }
 
-.black-friday-text h6 {
+.col-sm-4 h6 {
 	font-style: italic;
 	font-weight: 200;
 	padding-bottom: 5px;
 }
 
-/*black friday CSS mobile*/
-@media only screen and (max-width: 600px) {
-	#black-friday-wrapper {
-		display: none
-	}
+/*Bootstrap classes needed to change divs from side by side to stacked on mobile*/
+@media only screen and (max-width: 576px) {
+  .col-sm-11 {
+    display: flex;
+    flex-direction:column; 
+	padding-left: 30px;  
+	padding-right: 30px;   
+	text-align: center; 
+  }
 	
-	.black-friday-container-mobile {
-		display: block;
-		margin: auto;
+	h4 {
+		padding-top: 15px;
+	}	
+	
+	.row {
 		margin-left: 20px;
 		margin-right: 20px;
-		margin-bottom: 50px;
-		align-text: center;
-		box-shadow: 5px 5px 20px #bcbcbc;
-		padding-top: 10px;
-	}
-	
-	#black-friday-work-mobile {
-		width: 90%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.black-friday-text-mobile {
-		text-align: center;
-		padding: 30px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.black-friday-text-mobile h4 {
-		font-weight: 100;
-		font-size: 150%;
-		padding-bottom: 5px;
-	}
-	
-	.black-friday-text-mobile h6 {
-		font-style: italic;
-		font-weight: 200;
-		padding-bottom: 5px;
-}
-}
-/*black friday css ends*/
-
-/*Homepage*/
-.homepage-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
-	box-shadow: 5px 5px 20px #bcbcbc;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#homepage-mockup {
-	max-width: 100%;
-}
-
-.homepage-text {
-	padding-left: 20px;
-}
-
-.homepage-container-mobile {
-	display: none;
-}
-
-.homepage-text h4 {
-	font-weight: 100;
-	font-size: 150%;
-	padding-bottom: 5px;
-}
-
-.homepage-text h6 {
-	font-style: italic;
-	font-weight: 200;
-	padding-bottom: 5px;
-}
-
-/*homepage CSS mobile*/
-@media only screen and (max-width: 600px) {
-	#homepage-wrapper {
-		display: none
-	}
-	
-	.homepage-container-mobile {
-		display: block;
-		margin: auto;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-bottom: 50px;
-		align-text: center;
-		box-shadow: 5px 5px 20px #bcbcbc;
-		padding-top: 10px;
-	}
-	
-	#homepage-mobile {
-		width: 90%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.homepage-text-mobile {
-		text-align: center;
-		padding: 30px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.homepage-text-mobile h4 {
-		font-weight: 100;
-		font-size: 150%;
-		padding-bottom: 5px;
-	}
-	
-	.homepage-text-mobile h6 {
-		font-style: italic;
-		font-weight: 200;
-		padding-bottom: 5px;
-}
-}
-/*homepage css ends*/
-
-/*Look Book*/
-.lookbook-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
-	box-shadow: 5px 5px 20px #bcbcbc;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#lookbook-video {
-	max-width: 85%;
-}
-
-.lookbook-text {
-	padding-left: 20px;
-}
-
-.lookbook-container-mobile {
-	display: none;
-}
-
-.lookbook-text h4 {
-	font-weight: 100;
-	font-size: 150%;
-	padding-bottom: 5px;
-}
-
-.lookbook-text h6 {
-	font-style: italic;
-	font-weight: 200;
-	padding-bottom: 5px;
-}
-
-/*look book CSS mobile*/
-@media only screen and (max-width: 600px) {
-	#lookbook-wrapper {
-		display: none
-	}
-	
-	.lookbook-container-mobile {
-		display: block;
-		margin: auto;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-bottom: 50px;
-		align-text: center;
-		box-shadow: 5px 5px 20px #bcbcbc;
-		padding-top: 10px;
-	}
-	
-	#lookbook-mobile-video {
-		max-width: 85%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.lookbook-text-mobile {
-		text-align: center;
-		padding: 30px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.lookbook-text-mobile h4 {
-		font-weight: 100;
-		font-size: 150%;
-		padding-bottom: 5px;
-	}
-	
-	.lookbook-text-mobile h6 {
-		font-style: italic;
-		font-weight: 200;
-		padding-bottom: 5px;
 	}
 }
-/*look book css ends*/
-
-/*email CSS*/
-.email-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
-	box-shadow: 5px 5px 20px #bcbcbc;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#email-mockup {
-	max-width: 100%;
-}
-
-.email-text {
-	padding-left: 20px;
-}
-
-.email-container-mobile {
-	display: none;
-}
-
-.email-text h4 {
-	font-weight: 100;
-	font-size: 150%;
-	padding-bottom: 5px;
-}
-
-.email-text h6 {
-	font-style: italic;
-	font-weight: 200;
-	padding-bottom: 5px;
-}
-
-/*email CSS mobile*/
-@media only screen and (max-width: 600px) {
-	#email-wrapper {
-		display: none
-	}
-	
-	.email-container-mobile {
-		display: block;
-		margin: auto;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-bottom: 50px;
-		align-text: center;
-		box-shadow: 5px 5px 20px #bcbcbc;
-		padding-top: 10px;
-	}
-	
-	#email-mobile {
-		width: 90%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.email-text-mobile {
-		text-align: center;
-		padding: 30px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.email-text-mobile h4 {
-		font-weight: 100;
-		font-size: 150%;
-		padding-bottom: 5px;
-	}
-	
-	.email-text-mobile h6 {
-		font-style: italic;
-		font-weight: 200;
-		padding-bottom: 5px;
-}
-}
-/*email css ends*/
-
-/*photography CSS*/
-.photography-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
-	box-shadow: 5px 5px 20px #bcbcbc;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#photography-mockup {
-	max-width: 100%;
-}
-
-.photography-text {
-	padding-left: 20px;
-}
-
-.photography-container-mobile {
-	display: none;
-}
-
-.photography-text h4 {
-	font-weight: 100;
-	font-size: 150%;
-	padding-bottom: 5px;
-}
-
-.photography-text h6 {
-	font-style: italic;
-	font-weight: 200;
-	padding-bottom: 5px;
-}
-
-/*photography CSS mobile*/
-@media only screen and (max-width: 600px) {
-	#photography-wrapper {
-		display: none
-	}
-	
-	.photography-container-mobile {
-		display: block;
-		margin: auto;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-bottom: 50px;
-		align-text: center;
-		box-shadow: 5px 5px 20px #bcbcbc;
-		padding-top: 10px;
-	}
-	
-	#photography-mobile {
-		width: 90%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.photography-text-mobile {
-		text-align: center;
-		padding: 30px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.photography-text-mobile h4 {
-		font-weight: 100;
-		font-size: 150%;
-		padding-bottom: 5px;
-	}
-	
-	.photography-text-mobile h6 {
-		font-style: italic;
-		font-weight: 200;
-		padding-bottom: 5px;
-}
-}
-/*photography CSS ends*/
-
 /*Portfolio CSS ends*/
 
 /*About Me CSS*/
@@ -684,11 +323,9 @@ li {
 		padding-bottom: 5px;
 	}
 }
-
 /*About Me CSS Ends*/
 
 /*contact CSS*/
-
 #lets-talk {
 	text-align: center;
 	margin-top: 20px;
@@ -729,11 +366,9 @@ body a {
 	box-shadow: 5px 5px 20px #bcbcbc;
 	margin-bottom: 50px;
 }
-
 /*contact CSS ends*/
 
 /*Footer CSS*/
-
 footer {
 	background-color: #ffa66f;
 	position: static;
@@ -763,6 +398,5 @@ footer {
 	margin-bottom: 0px;
 	margin-right: 0px;
 }
-
 /*Footer CSS ends*/
 
