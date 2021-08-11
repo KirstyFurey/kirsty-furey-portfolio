@@ -7,62 +7,76 @@ This site is the beginning of my coding journey, and showcases what I have learn
 </br>
 ## Attribution ##
 ### Frameworks ###
-Bootstrap
+#### Bootstrap ####
+Used to style Nav and make elements responsive as detailed in 'Syntax' section below
 </br>
 
 ### Icons ###
-Font Awesome</br>
-https://fontawesome.com/</br>
-Hamburger menu icon:</br>
-https://fontawesome.com/v5.15/icons/bars?style=solid
+#### Font Awesome ####
+*https://fontawesome.com/*
+</br>
+Hamburger menu icon
+</br>
+*https://fontawesome.com/v5.15/icons/bars?style=solid*
 
 ### Fonts ###
-index.html background image created using:</br>
-https://www.fontspace.com/king-lounpera-font-f50516
+index.html background image created using
+</br>
+*https://www.fontspace.com/king-lounpera-font-f50516*
 </br>
 
 ### Programs ###
 Images created using Adobe Photoshop
 </br>
 
-### Syntax help ###
+### Syntax ###
+
+#### W3 Schools ####
 General usages of attributes and their meanings
 </br>
-https://www.w3schools.com/
+*https://www.w3schools.com/*
 </br>
 </br>
-To float text div over image on index page: 
+Nav bar styling methods from
 </br>
-https://stackoverflow.com/questions/18339549/floating-div-over-an-image
-</br>
-</br>
-To centre the text over the image on index page: 
-</br>
-</br>
-https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more
-</br>
-</br>
-Nav bar styling methods from:
-</br>
-https://www.w3schools.com/css/css_navbar_horizontal.asp
-</br>
-</br>
-Nav bar responsive code from:
-</br>
-https://getbootstrap.com/docs/5.0/components/navbar
+*https://www.w3schools.com/css/css_navbar_horizontal.asp*
 </br>
 </br>
 Media query snytax
-https://www.w3schools.com/css/css_rwd_mediaqueries.asp
-<br>
-</br>
-About page image & text centre and align:
-</br>
-https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
+*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*
 </br>
 </br>
-Change spacing between text and text underline:
+About page image & text centre and align
 </br>
-https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css
+*https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html*
 </br>
+#### Bootstrap ####
+Nav bar responsive code from
+</br>
+*https://getbootstrap.com/docs/5.0/components/navbar*
+</br>
+#### Stack Overflow ####
+To float text div over image on index page
+</br>
+*https://stackoverflow.com/questions/18339549/floating-div-over-an-image*
+</br>
+</br>
+Bootstrap classes needed to change divs from side by side to stacked on mobile
+</br>
+*https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts*
+</br>
+</br>
+Change spacing between text and text underline
+*https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css*
+</br>
+</br>
+Syntax for responsive image scaling via stack overflow:
+</br>
+*https://stackoverflow.com/questions/24190830/bootstrap-responsive-img-but-change-image-height-and-width/24191011*
+</br>
+
+#### Free Code Camp ####
+To centre the text over the image on index page: 
+</br>
+*https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more*
 </br>

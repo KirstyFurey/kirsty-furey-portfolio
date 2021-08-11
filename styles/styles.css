@@ -239,7 +239,7 @@ li {
 	padding-bottom: 5px;
 }
 
-/*Bootstrap classes needed to change divs from side by side to stacked on mobile*/
+/*Bootstrap classes needed to change divs from side by side to stacked on mobile: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts*/
 @media only screen and (max-width: 576px) {
   .col-sm-11 {
     display: flex;
