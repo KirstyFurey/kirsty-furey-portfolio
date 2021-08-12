@@ -56,11 +56,6 @@ Nav bar responsive code from
 *https://getbootstrap.com/docs/5.0/components/navbar*
 </br>
 #### Stack Overflow ####
-To float text div over image on index page
-</br>
-*https://stackoverflow.com/questions/18339549/floating-div-over-an-image*
-</br>
-</br>
 Bootstrap classes needed to change divs from side by side to stacked on mobile
 </br>
 *https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts*
