@@ -122,7 +122,7 @@ li {
 	background-color: #ffa66f;
 	background-position: center;
 	color: white;
-	height: 100vh;
+	height: 500px;
 	margin-bottom: auto;
 }
 
@@ -229,7 +229,7 @@ li {
 }
 
 /*portfolio items css*/
-.col-sm-11 {
+.portfolio-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -258,7 +258,7 @@ li {
 
 /*Bootstrap classes needed to change divs from side by side to stacked on mobile: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts*/
 @media only screen and (max-width: 576px) {
-  .col-sm-11 {
+  .portfolio-container {
     display: flex;
     flex-direction:column; 
 	padding-left: 30px;  
@@ -312,7 +312,7 @@ li {
 
 /*About me CSS mobile*/
 @media only screen and (max-width: 576px) {
-  .col-sm-11 {
+  .about-container {
     display: flex;
     flex-direction:column; 
 	padding-left: 30px;  
@@ -356,34 +356,183 @@ li {
 	margin-bottom: 20px;
 	font-size: 80%;
 }
-
-.contact-type {
-	padding: 0px;
-	margin: 0px;
-	font-weight: 600;
+/*
+.contact-details {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 5px 5px 20px #bcbcbc;
+	padding: 20px 10px 10px 10px;
+	font-size: 70%;
+	text-align:center;
+	margin-bottom: 50px;
 }
 
-.contact-item {
-	padding: 0px;
-	margin: 0px;
-	font-weight: 300;
-}
-
-.contact-type, .contact-item {
-	text-align: center;
+.contact-link .contact-location {
+	font-size: 70%;
+	text-align:center;
+	
 }
 
 .contact-item a {
 	color: black;
+}*/
+
+/*Contact info CSS*/
+.contact-info-container {
+	display: flex;
+	justify-content: center;
+	box-shadow: 5px 5px 20px #bcbcbc;
 }
 
-#contact-info-container {
-	padding: 20px 40px 20px 40px;
-	border-radius: 5px;
-	box-shadow: 5px 5px 20px #bcbcbc;
-	margin-bottom: 50px;
+.contact-details {
+	display: flex;
+	justify-content: center;
+	padding: 20px 10px 10px 10px;
+	font-size: 70%;
+	width: 80vw;
+}
+
+.contact-link {
+	padding: 0px 25px;
+	text-align: center;
+}
+
+.contact-location {
+	padding: 0px 25px;
+	text-align: center;
+}
+
+.contact-type {
+	margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+.contact-item {
+	margin-bottom: 25px;
+}
+}
+
+/*contact form CSS*/
+.contact-form-container {
+	display: flex;
+	justify-content: center;
+}
+
+.form-head {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 80%;
+	margin-top: 30px;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: center;
+	background-color: #ffa66f;
+	padding: 20px 10px 10px 10px;
+	font-size: 70%;
+	width: 60vw;
+}
+
+@media only screen and (max-width: 991px) {
+	.contact-form {
+		width: 80vw;
+	}
+}
+
+.form-fields {
+	margin: 0px 5px 0px 5px;
+	width: 40%;
+}
+
+.form-fields-2 {
+	margin: 0px 5px 0px 5px;
+	width: 40%;
+}
+
+.form-message {
+	margin: 0px 5px 0px 5px;
 	
 }
+
+.submit-button {
+	margin: 0px 5px 0px 5px;
+	
+}
+
+.input-field {
+	margin: 5px;
+	padding: 4px 70px 4px 2px;
+	width: 80%;
+	background-color: #e97730;
+	border: solid #e97730;
+	
+}
+
+.input-message {
+	margin: 5px;
+	padding: 4px 70px 43px 2px;
+	width: 100%;
+	background-color: #e97730;
+	border: solid #e97730;
+}
+
+/*selector for placeholder text color: https://www.w3schools.com/howto/howto_css_placeholder.asp*/
+::placeholder {
+	color: white;
+	opacity: 1;
+}
+
+.form-submit {
+	margin: 5px;
+	background-color: white;
+	color: #e97730;
+	border: none;
+	padding: 5px 40px;
+}
+
+.form-submit:hover {
+	background-color: #e97730;
+	color: white;
+}
+
+/*order properties of flexbox from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+@media only screen and (max-width: 768px) {
+  .contact-details {
+    display: flex;
+    flex-direction:column;  
+	text-align: center; 
+  }
+	
+	.contact-link {
+		order: 1;
+	}
+	
+	.contact-location {
+		order: 5;
+	}
+	
+  .contact-form {
+    display: flex;
+    flex-direction: column;  
+	align-items: center;  
+  }
+
+	.form-fields {
+		width: auto;
+	}
+	
+	.form-fields-2 {
+		width: auto;
+	}
+	
+	.input-field {
+		width: 100%;
+	}
+	
+}
+
 /*contact CSS ends*/
 
 /*Footer CSS*/

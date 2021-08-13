@@ -31,6 +31,11 @@ Images created using Adobe Photoshop
 
 ### Syntax ###
 
+#### CSS Tricks ###
+How to use Flexbox
+</br>
+*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*
+</br>
 #### W3 Schools ####
 General usages of attributes and their meanings
 </br>
@@ -43,12 +48,18 @@ Nav bar styling methods from
 </br>
 </br>
 Media query snytax
+</br>
 *https://www.w3schools.com/css/css_rwd_mediaqueries.asp*
 </br>
 </br>
 About page image & text centre and align
 </br>
 *https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html*
+</br>
+</br>
+Selector for changing placeholder text color
+</br>
+*https://www.w3schools.com/howto/howto_css_placeholder.asp*
 </br>
 #### Bootstrap ####
 Nav bar responsive code from
@@ -62,6 +73,7 @@ Bootstrap classes needed to change divs from side by side to stacked on mobile
 </br>
 </br>
 Change spacing between text and text underline
+</br>
 *https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css*
 </br>
 </br>
@@ -69,7 +81,11 @@ Syntax for responsive image scaling via stack overflow:
 </br>
 *https://stackoverflow.com/questions/24190830/bootstrap-responsive-img-but-change-image-height-and-width/24191011*
 </br>
-
+#### CSS Tricks ####
+Flexbox order properties:
+</br>
+*https://css-tricks.com/snippets/css/a-guide-to-flexbox*
+</br>
 #### Free Code Camp ####
 To centre the text over the image on index page: 
 </br>
