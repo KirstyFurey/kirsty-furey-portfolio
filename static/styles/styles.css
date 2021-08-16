@@ -122,7 +122,7 @@ li {
 	background-color: #ffa66f;
 	background-position: center;
 	color: white;
-	height: 500px;
+	height: 90vh;
 	margin-bottom: auto;
 }
 
@@ -130,23 +130,6 @@ li {
 	text-align: center;
 }
 
-/*Media query syntax: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*//*
-@media only screen and (max-width: 600px) {
-	.index-contain {
-		margin-top: 100px;
-	}
-}
-/* To centre the text over the image: https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*//*
-.text-overlay {
-	width: 250px;
-    position: absolute;
-	top: 35%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 1000;
-	text-align: center;
-}
-*/
 #my-name {
 	font-weight: 200;
 	font-size: 150%;
@@ -221,9 +204,7 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
-	
-	
-	.portfolio-title p {
+		.portfolio-title p {
 		font-size: 70%;
 	}
 }
@@ -356,27 +337,6 @@ li {
 	margin-bottom: 20px;
 	font-size: 80%;
 }
-/*
-.contact-details {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-shadow: 5px 5px 20px #bcbcbc;
-	padding: 20px 10px 10px 10px;
-	font-size: 70%;
-	text-align:center;
-	margin-bottom: 50px;
-}
-
-.contact-link .contact-location {
-	font-size: 70%;
-	text-align:center;
-	
-}
-
-.contact-item a {
-	color: black;
-}*/
 
 /*Contact info CSS*/
 .contact-info-container {
