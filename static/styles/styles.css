@@ -188,20 +188,12 @@ li {
 .portfolio-title p {
 	text-align: center;
 	font-size: 80%;
-	margin-top: 20px;
-}
-
-.portfolio-title span {
-	font-size: 150%;
-	font-weight: 100;
-	text-decoration-thickness: 2%; 
-	padding-left: 3px;
-	padding-right: 3px;
 }
 
 #portfolio-like-h4 {
 	text-align: center;
 	padding-top: 10px;
+	padding-bottom: 5px;
 	font-weight: 200;
 }
 
@@ -213,9 +205,6 @@ li {
 		padding-right: 3px;	
 	}
 
-.portfolio-title p {
-	margin-top: -5px;
-}
 
 @media only screen and (max-width: 600px) {
 		.portfolio-title p {
@@ -299,6 +288,28 @@ li {
 	font-weight: 100;
 	font-size: 200%;
 	padding-bottom: 5px;
+}
+
+#about-cv-button {
+	background-color: #ffa66f;
+	border: none;
+	margin-top: 8px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 70%;
+	letter-spacing: 2px;
+}
+
+#about-cv-button a {
+	text-decoration: none;
+	color: white;
+	font-size: 70%;
+	letter-spacing: 2px;
+}
+
+#about-cv-button:hover {
+	background-color: #e97730;
 }
 
 #kirsty-about-mobile {
@@ -437,19 +448,19 @@ li {
 
 .input-field {
 	margin: 5px;
-	padding: 4px 70px 4px 2px;
+	padding: 6px 72px 6px 4px;
 	width: 80%;
 	background-color: #e97730;
-	border: solid #e97730;
+	border: none;
 	
 }
 
 .input-message {
 	margin: 5px;
-	padding: 4px 70px 43px 2px;
+	padding: 6px 72px 45px 4px;
 	width: 100%;
 	background-color: #e97730;
-	border: solid #e97730;
+	border: none;
 }
 
 /*selector for placeholder text color: https://www.w3schools.com/howto/howto_css_placeholder.asp*/
