@@ -41,6 +41,15 @@ body a {
 	text-underline-offset: 5px; /*syntax found via an answer on Stack overflow: https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css*/
 }
 
+a:hover {
+	color: #e97730;
+}
+
+main, section a:visited {
+	color: black;
+}
+
+
 /*Nav CSS*/
 
 .navbar-brand img {
@@ -227,6 +236,9 @@ li {
 		padding-left: 3px;
 		padding-right: 3px;	
 	}
+.portfolio-title span a:hover {
+		color: #e97730;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -476,7 +488,7 @@ li {
 	width: 80%;
 	background-color: #e97730;
 	border: none;
-	
+	color: white;
 }
 
 .input-message {
@@ -485,6 +497,7 @@ li {
 	width: 100%;
 	background-color: #e97730;
 	border: none;
+	color: white;
 }
 
 /*selector for placeholder text color: https://www.w3schools.com/howto/howto_css_placeholder.asp*/

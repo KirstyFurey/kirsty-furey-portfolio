@@ -94,7 +94,7 @@ I sent out GitHub pages link to friends and family for feedback on usability.
 ### Bugs and Fixes ###
 User tests showed hamburger menu could not be activated on Android devices, but working correctly on Apple devices, including laptop, tablet, and phone. Tracked down issue to using attribute 'visibility: hidden' on '.navbar-toggler:focus' which seemed to allow interaction on Apple but not on Android. Bootstrap has this as standard with a thick border, which, stylistically I did not want. Amended CSS to 'box-shadow: none;'.
 </br>
-index.html was showing white space to bottom of page on all viewport sizes, which setting body to 100vh did not fix. Added flex display attributes to divs on index page, and set alignment properies and margin. Problem rectified.
+index.html, contact.html and about.html were showing white space to bottom of page on many viewport sizes, which setting body to 100vh did not fix. Added flex display attributes to body elements, main and section elements and divs on pages where appropriate, and set alignment properies and margin. Problem rectified.
 </br>
 Initally I attempted to write Nav code from scratch but could not make the hamburger work as required with my limited experience with JavaScript. Re-created the Nav usikng Bootstrap, and will look to change this once my knowledge improves in all areas.
 
