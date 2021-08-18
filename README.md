@@ -89,14 +89,23 @@ Used to create portfolio.html page digital look book video.
 ## Testing ##
 
 ### User Tests ###
-I sent out GitHub pages link to friends and family for feedback on usability.
+I sent out GitHub pages link to friends and family for feedback.
+</br>
+Overall consensus is that the site is easy to navigate, easy to understand, and is visually pleasing across a range of devices.
+</br>
+One friend with Dyslexia said she found the orange and white colour combination easier for her to see and read than black on white.
+</br> 
+</br>
+Users confirmed all links work, and contact form submissions reach me as intended. 
 
 ### Bugs and Fixes ###
-User tests showed hamburger menu could not be activated on Android devices, but working correctly on Apple devices, including laptop, tablet, and phone. Tracked down issue to using attribute 'visibility: hidden' on '.navbar-toggler:focus' which seemed to allow interaction on Apple but not on Android. Bootstrap has this as standard with a thick border, which, stylistically I did not want. Amended CSS to 'box-shadow: none;'.
+User tests showed hamburger menu could not be activated on Android devices, but working correctly on Apple devices, including laptop, tablet, and phone. Tracked down issue to using attribute 'visibility: hidden' on '.navbar-toggler: focus' which seemed to allow interaction on Apple but not on Android. Bootstrap has this as standard with a thick border, which, stylistically I did not want. Amended CSS to 'box-shadow: none;' which solved the issue.
 </br>
-index.html, contact.html and about.html were showing white space to bottom of page on many viewport sizes, which setting body to 100vh did not fix. Added flex display attributes to body elements, main and section elements and divs on pages where appropriate, and set alignment properies and margin. Problem rectified.
 </br>
-Initally I attempted to write Nav code from scratch but could not make the hamburger work as required with my limited experience with JavaScript. Re-created the Nav usikng Bootstrap, and will look to change this once my knowledge improves in all areas.
+index.html, contact.html and about.html were showing white space to bottom of page on many viewport sizes, which setting body to 100vh did not fix. With help from my mentor, Sunny, I added flex display attributes to body elements, main and section elements and divs on pages where appropriate, and set alignment properies and margin. Problem rectified.
+</br>
+</br>
+Initally I attempted to write Nav code from scratch but could not make the hamburger work as required with my limited experience with JavaScript. Re-created the Nav using Bootstrap, and will look to change this once my knowledge improves in all areas.
 
 ### Repository Link ###
 The site remote reposity can be located here:
