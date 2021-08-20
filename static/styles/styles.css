@@ -49,6 +49,10 @@ main, section a:visited {
 	color: black;
 }
 
+/*remove excess padding on Bootstrap rows to remove side scroll*/
+.row {
+	margin: auto;
+	}
 
 /*Nav CSS*/
 
@@ -289,10 +293,7 @@ li {
 		padding-top: 15px;
 	}	
 	
-	.row {
-		margin-left: 20px;
-		margin-right: 20px;
-	}
+	
 }
 /*Portfolio CSS ends*/
 
@@ -364,11 +365,6 @@ li {
 	h4 {
 		padding-top: 15px;
 	}	
-	
-	.row {
-		margin-left: 20px;
-		margin-right: 20px;
-	}
 	
 	#kirsty-about {
 		display: none;
