@@ -2,9 +2,11 @@
 /* CSS Document */
 
 body {
-	min-height: 100vh;
+	height: 100vh;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	letter-spacing: 2px;
+	display: flex;
+	flex-direction: column;
 }
 
 .index-body {
@@ -130,27 +132,6 @@ nav a:hover {
 	border-right: 0.5px solid white;
 }
 
-/*Mobile nav CSS*/
-@media only screen and (max-width: 991px) {
-	
-ul {
-	list-style-type: none;
-	}
-
-li {
-	display: inherit;
-	text-decoration: none;
-	color: white;
-	text-align: right;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 10px;
-	}
-	
-#home, #portfolio, #about {
-	border: none;
-	}		
-}
 /*Nav CSS ends*/
 
 /*index css*/
@@ -225,17 +206,6 @@ li {
 	width: 10%;
 }
 
-@media only screen and (max-width: 768px) {
-	#fed {
-	display: none;
-	}
-	
-	#fed-mobile {
-		display: block;
-		font-size: 80%;
-		margin: auto;
-	}
-}
 
 /*Index CSS ends*/
 
@@ -263,12 +233,6 @@ li {
 		color: #e97730;
 }
 
-
-@media only screen and (max-width: 600px) {
-		.portfolio-title p {
-		font-size: 70%;
-	}
-}
 
 /*portfolio items css*/
 .portfolio-container {
@@ -298,27 +262,50 @@ li {
 	padding-bottom: 5px;
 }
 
-#doodle-pairs {
-	padding: 10px 20px;
-	border: 1px solid black;
+.portfolio-items {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 30px;
 }
 
-/*Bootstrap classes needed to change divs from side by side to stacked on mobile: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts*/
-@media only screen and (max-width: 576px) {
-  .portfolio-container {
-    display: flex;
-    flex-direction:column; 
-	padding-left: 30px;  
-	padding-right: 30px;   
-	text-align: center; 
-  }
-	
-	h4 {
-		padding-top: 15px;
-	}	
-	
-	
+.horizontal-portfolio {
+	position: relative;
+	width: 540px;
+	height: 360px;
+	object-fit: cover;
 }
+
+.horizontal-image {
+	width: 540px;
+	height: 360px;
+	object-fit: cover;
+}
+
+.overlay {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	width: 540px;
+	height: 360px;
+    opacity: 0;
+    transition: .5s ease;
+	color: white;
+	background-color: rgba(253, 166, 116, .7);
+}
+
+.overlay-text {
+	text-align: center;
+}
+
+.horizontal-portfolio:hover .overlay {
+	opacity: 1;
+}
+
 /*Portfolio CSS ends*/
 
 /*About Me CSS*/
@@ -376,31 +363,6 @@ li {
 	display: none;
 }
 
-/*About me CSS mobile*/
-@media only screen and (max-width: 576px) {
-  .about-container {
-    display: flex;
-    flex-direction:column; 
-	padding-left: 30px;  
-	padding-right: 30px;   
-	text-align: center; 
-  }
-	
-	h4 {
-		padding-top: 15px;
-	}	
-	
-	#kirsty-about {
-		display: none;
-	}
-	
-	#kirsty-about-mobile {
-		display: block;
-		max-width: 50vw;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-}
 /*About Me CSS Ends*/
 
 /*contact CSS*/
@@ -413,20 +375,23 @@ li {
 
 #contact-intro {
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px 50px;
 	font-size: 80%;
 }
 
 /*Contact info CSS*/
 .contact-info-container {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 	box-shadow: 5px 5px 20px #bcbcbc;
 }
 
 .contact-details {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 	padding: 20px 10px 10px 10px;
 	font-size: 70%;
@@ -436,144 +401,19 @@ li {
 .contact-link {
 	padding: 0px 25px;
 	text-align: center;
+	margin: 20px 0px;
 }
 
 .contact-location {
 	padding: 0px 25px;
 	text-align: center;
+	margin: 20px 0px;
 }
 
 .contact-type {
 	margin-bottom: 4px;
 }
 
-@media only screen and (max-width: 768px) {
-.contact-item {
-	margin-bottom: 25px;
-}
-}
-
-/*contact form CSS*/
-.contact-form-container {
-	display: flex;
-	justify-content: center;
-}
-
-.form-head {
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 60%;
-	margin-top: 30px;
-	padding: 0px 40px;
-}
-
-.contact-form {
-	display: flex;
-	justify-content: center;
-	background-color: #ffa66f;
-	padding: 20px 10px 10px 10px;
-	font-size: 70%;
-	width: 60vw;
-}
-
-@media only screen and (max-width: 991px) {
-	.contact-form {
-		width: 80vw;
-	}
-}
-
-.form-fields {
-	margin: 0px 5px 0px 5px;
-	width: 40%;
-}
-
-.form-fields-2 {
-	margin: 0px 5px 0px 5px;
-	width: 40%;
-}
-
-.form-message {
-	margin: 0px 5px 0px 5px;
-	
-}
-
-.submit-button {
-	margin: 0px 5px 0px 5px;
-	
-}
-
-.input-field {
-	margin: 5px;
-	padding: 6px 72px 6px 4px;
-	width: 80%;
-	background-color: #e97730;
-	border: none;
-	color: white;
-}
-
-.input-message {
-	margin: 5px;
-	padding: 6px 72px 45px 4px;
-	width: 100%;
-	background-color: #e97730;
-	border: none;
-	color: white;
-}
-
-/*selector for placeholder text color: https://www.w3schools.com/howto/howto_css_placeholder.asp*/
-::placeholder {
-	color: white;
-	opacity: 1;
-}
-
-.form-submit {
-	margin: 5px;
-	background-color: white;
-	color: #e97730;
-	border: none;
-	padding: 5px 40px;
-}
-
-.form-submit:hover {
-	background-color: #e97730;
-	color: white;
-}
-
-/*order properties of flexbox from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-@media only screen and (max-width: 768px) {
-  .contact-details {
-    display: flex;
-    flex-direction:column;  
-	text-align: center; 
-  }
-	
-	.contact-link {
-		order: 1;
-	}
-	
-	.contact-location {
-		order: 5;
-	}
-	
-  .contact-form {
-    display: flex;
-    flex-direction: column;  
-	align-items: center;  
-  }
-
-	.form-fields {
-		width: auto;
-	}
-	
-	.form-fields-2 {
-		width: auto;
-	}
-	
-	.input-field {
-		width: 100%;
-	}
-	
-}
 
 /*contact CSS ends*/
 
@@ -581,7 +421,7 @@ li {
 footer {
 	background-color: #ffa66f;
 	color: white;
-	margin: 0;
+	margin-top: auto;
 }
 
 #footer-socials {
@@ -606,3 +446,99 @@ footer {
 }
 /*Footer CSS ends*/
 
+
+
+/*Mobile nav CSS*/
+@media only screen and (max-width: 991px) {
+	
+ul {
+	list-style-type: none;
+	}
+
+li {
+	display: inherit;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	}
+	
+#home, #portfolio, #about {
+	border: none;
+	}		
+}
+
+@media only screen and (max-width: 768px) {
+	#fed {
+	display: none;
+	}
+	
+	#fed-mobile {
+		display: block;
+		font-size: 80%;
+		margin: auto;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+		.portfolio-title p {
+		font-size: 70%;
+	}
+}
+
+
+/*Bootstrap classes needed to change divs from side by side to stacked on mobile: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts*/
+@media only screen and (max-width: 576px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction:column; 
+	padding-left: 30px;  
+	padding-right: 30px;   
+	text-align: center; 
+  }
+	
+	h4 {
+		padding-top: 15px;
+	}	
+	
+	
+}
+
+
+/*About me CSS mobile*/
+@media only screen and (max-width: 576px) {
+	
+  .about-container {
+    display: flex;
+    flex-direction:column; 
+	padding-left: 30px;  
+	padding-right: 30px;   
+	text-align: center; 
+  }
+	
+	h4 {
+		padding-top: 15px;
+	}	
+	
+	#kirsty-about {
+		display: none;
+	}
+	
+	#kirsty-about-mobile {
+		display: block;
+		max-width: 50vw;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+.contact-item {
+	margin-bottom: 25px;
+    }
+}
