@@ -630,6 +630,10 @@ li {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+	
+    .open {
+		pointer-events: none;
+    }
 }
 
 
