@@ -367,7 +367,7 @@ nav a:hover {
 
 /* Portfolio modal*/
 
-.vertical-modal {
+.mod {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -400,6 +400,52 @@ nav a:hover {
     position: absolute;
     left: 50%;
     transform: translate(-65%);
+}
+
+.h-modal-img-contain {
+	margin-top: 20px;
+	width: 700px;
+	height: 500px;
+	padding: 0px 20px;
+}
+
+.h-img-modal {
+	width:700px;
+	height: 500px;
+	object-fit: contain;
+}
+
+
+.h-modal-contents {
+	width: 700px;
+	height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-55%);
+}
+
+
+.email-modal-img-contain {
+	margin-top: 20px;
+	width: 400px;
+	padding: 0px 20px;
+}
+
+.email-img-modal {
+	width: 400px;
+	object-fit: contain;
+}
+
+
+.email-modal-contents {
+	width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-65%);
+}
+
+#site-portfolio-spot {
+	cursor: default;
 }
 
 /*Portfolio CSS ends*/
