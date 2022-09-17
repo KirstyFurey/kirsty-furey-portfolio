@@ -472,9 +472,8 @@ nav a:hover {
 	display: none;
 }
 
-.about-me-info h4 {
-	font-weight: 100;
-	font-size: 200%;
+.hey {
+	font-weight: 800;
 	padding-bottom: 5px;
 }
 
