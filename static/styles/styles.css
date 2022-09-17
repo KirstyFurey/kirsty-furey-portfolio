@@ -381,10 +381,8 @@ nav a:hover {
 }
 
 .v-modal-img-contain {
-	margin-top: 20px;
 	width: 400px;
 	height: 600px;
-	padding: 0px 20px;
 }
 
 .v-img-modal {
@@ -399,36 +397,34 @@ nav a:hover {
 	height: 600px;
     position: absolute;
     left: 50%;
-    transform: translate(-65%);
+	top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .h-modal-img-contain {
-	margin-top: 20px;
-	width: 700px;
-	height: 500px;
-	padding: 0px 20px;
+	width: 680px;
+	height: 450px;
 }
 
 .h-img-modal {
-	width:700px;
-	height: 500px;
+	width: 680px;
+	height: 450px;
 	object-fit: contain;
 }
 
 
 .h-modal-contents {
-	width: 700px;
-	height: 500px;
+	width: 680px;
+	height: 450px;
     position: absolute;
     left: 50%;
-    transform: translate(-55%);
+	top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 .email-modal-img-contain {
-	margin-top: 20px;
 	width: 400px;
-	padding: 0px 20px;
 }
 
 .email-img-modal {
@@ -439,9 +435,12 @@ nav a:hover {
 
 .email-modal-contents {
 	width: 400px;
+	height: 95vh;
+	overflow-y: auto;
     position: absolute;
     left: 50%;
-    transform: translate(-65%);
+	top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #site-portfolio-spot {
