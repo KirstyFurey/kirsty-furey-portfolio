@@ -235,7 +235,7 @@ nav a:hover {
 
 
 /*portfolio items css*/
-.portfolio-container {
+/*.portfolio-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -245,7 +245,7 @@ nav a:hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
+*/
 .col-sm-4 {
 	padding-left: 20px;
 }
@@ -266,7 +266,7 @@ nav a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 20px 30px;
+	margin: 20px 0px;
 }
 
 .portfolio-items {
